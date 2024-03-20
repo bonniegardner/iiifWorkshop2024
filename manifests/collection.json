@@ -1,0 +1,13 @@
+{
+  "id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in bonniegardner/iiifWorkshop2024 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json",
+    "label" : "This is a test manifest for iiif workshop"
+  } ]
+}
