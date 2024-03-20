@@ -1,0 +1,97 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "This is a test manifest for iiif workshop",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Bonnie Gardner"
+  }, {
+    "label" : "Publication",
+    "value" : [ {
+      "@value" : "Oregon, 2023",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "This is a test manifest for iiif workshop",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Copyright Bonnie Gardner but released by Creative Commons",
+  "sequences" : [ {
+    "@id" : "http://9cdb5955-1ef9-422e-8d26-efc7805f50bd",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb",
+      "@type" : "sc:Canvas",
+      "label" : "TAMU Softball",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4c4d834a-12ed-42c8-aeb3-a1ccff137ddb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-0886_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-0886_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a43795ab-701b-4ff6-8a04-6f4dcf8c751c",
+      "@type" : "sc:Canvas",
+      "label" : "Wallowa Lake",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://08197638-d071-41dc-bbb0-798fd776f3fb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1037_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1037_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://a43795ab-701b-4ff6-8a04-6f4dcf8c751c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb" ]
+  } ]
+}
