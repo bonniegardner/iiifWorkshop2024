@@ -1,0 +1,105 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Shortstop",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Shortstop</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/123971780",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-03-21T16:50:55",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1711039855055",
+    "dcterms:modified" : "2024-03-21T16:50:55",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2939,1658,177,218"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2939.34759,1658.23529h88.59358v0h88.59358v108.80749v108.80749h-88.59358h-88.59358v-108.80749z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_872e9fd1-c161-4930-b1ea-bbf2b1727c7d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Pitcher",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Pitcher</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/123971780",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-03-21T16:50:25",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1711039825832",
+    "dcterms:modified" : "2024-03-21T16:50:25",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2189,1699,249,281"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2189.18717,1698.6631h124.52941v0h124.52941v140.25134v140.25134h-124.52941h-124.52941v-140.25134z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_df65960c-28a0-4051-8cca-c71d6c6c99f3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Catcher",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Catcher</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/123971780",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-03-21T16:50:40",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1711039840730",
+    "dcterms:modified" : "2024-03-21T16:50:40",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=689,1726,191,249"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M688.86631,1725.61497h95.33155v0h95.33155v124.52941v124.52941h-95.33155h-95.33155v-124.52941z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9f3c0058-963a-4551-9e26-a4200fc88391\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2197f896-bbd3-4ea5-961d-9a59af3ae2bb"
+    } ]
+  } ],
+  "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/annotations/cc568679b285c99faf0b7e13607640c3.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
