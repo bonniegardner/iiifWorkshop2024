@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest2.json",
     "label" : "iiif-workshop project"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest.json",
+    "label" : "iiif-workshop project"
   } ]
 }
