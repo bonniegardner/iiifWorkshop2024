@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest3.json",
     "label" : "This is a test manifest for iiif workshop"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest2.json",
+    "label" : "iiif-workshop project"
   } ]
 }
