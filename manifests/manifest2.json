@@ -1,0 +1,167 @@
+{
+  "@context" : [ "http://iiif.io/api/presentation/2/context.json", "http://iiif.io/api/extension/navplace/context.json" ],
+  "@id" : "https://bonniegardner.github.io/iiifWorkshop2024/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "iiif-workshop project",
+  "metadata" : [ {
+    "label" : "Creator",
+    "value" : "Bonnie Gardner"
+  }, {
+    "label" : "Created",
+    "value" : [ {
+      "@value" : "Seoul, South Korea. August 2018",
+      "@language" : "en"
+    }, {
+      "@value" : "서울, 한국. 2018년 8월",
+      "@language" : "ko"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Photos taken while in Seoul, South Korea",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Copyright Bonnie Gardner",
+  "sequences" : [ {
+    "@id" : "http://dad7bf56-e67d-4ec0-a2c5-ce96855c3fd3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://8f334234-3b0b-480d-ac02-b93c107bb306",
+      "@type" : "sc:Canvas",
+      "label" : "Gyeongbokgung Palace",
+      "height" : 1296,
+      "width" : 1936,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4a492815-c69f-4184-a2e4-a48d7717f0f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1247_20240322/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1247_20240322",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1296,
+          "width" : 1936
+        },
+        "on" : "http://8f334234-3b0b-480d-ac02-b93c107bb306"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://dcfcbaad-0abc-4bbe-b615-2fcb9a70c611",
+      "@type" : "sc:Canvas",
+      "label" : "Seoul Tower",
+      "height" : 1936,
+      "width" : 1296,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3ce8d0f0-80f3-47d9-a365-009c119c9ceb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1249_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1249_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1936,
+          "width" : 1296
+        },
+        "on" : "http://dcfcbaad-0abc-4bbe-b615-2fcb9a70c611"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7fd32b8d-24d9-4ec1-bdb9-b3bbdea64dc9",
+      "@type" : "sc:Canvas",
+      "label" : "Yonsei University",
+      "height" : 1936,
+      "width" : 1296,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fad1c2c8-388f-4fbb-9bdd-843e41e304d8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1250_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1250_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1936,
+          "width" : 1296
+        },
+        "on" : "http://7fd32b8d-24d9-4ec1-bdb9-b3bbdea64dc9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://341ebf04-3a81-498c-8af7-610256ca0bec",
+      "@type" : "sc:Canvas",
+      "label" : "Bongeunsa Temple",
+      "height" : 1296,
+      "width" : 1936,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6c25787c-25f6-405b-b320-720b2cf9809e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-1248_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-1248_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1296,
+          "width" : 1936
+        },
+        "on" : "http://341ebf04-3a81-498c-8af7-610256ca0bec"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/image1", "http://example.org/iiif/book1/range/image2", "http://example.org/iiif/book1/range/image3", "http://example.org/iiif/book1/range/image4" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/image1",
+    "@type" : "sc:Range",
+    "label" : "Gyeongbokgung Palace",
+    "canvases" : [ "http://8f334234-3b0b-480d-ac02-b93c107bb306" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/image2",
+    "@type" : "sc:Range",
+    "label" : "Seoul Tower",
+    "canvases" : [ "http://dcfcbaad-0abc-4bbe-b615-2fcb9a70c611" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/image3",
+    "@type" : "sc:Range",
+    "label" : "Yonsei University",
+    "canvases" : [ "http://7fd32b8d-24d9-4ec1-bdb9-b3bbdea64dc9" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/image4",
+    "@type" : "sc:Range",
+    "label" : "Bongeunsa Temple",
+    "canvases" : [ "http://341ebf04-3a81-498c-8af7-610256ca0bec" ]
+  } ]
+}
